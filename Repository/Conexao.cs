@@ -16,7 +16,7 @@ namespace Repository
             conexao.ConnectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
             conexao.Open();
 
-            SqlCommand comand = new SqlCommand();
+            SqlCommand comando = new SqlCommand();
             comando.Connection = conexao;
             return comando;
         }
