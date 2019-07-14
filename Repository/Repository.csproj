@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoriaRepository.cs" />
     <Compile Include="Conexao.cs" />
     <Compile Include="EstadoRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,6 +52,9 @@
       <Project>{a6e121dd-3aeb-4fbe-a9b6-2896b0305baf}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Estrutura.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
