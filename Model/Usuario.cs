@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    class Usuario
+    public class Usuario
     {
+        public int Id;
+        public string Nome;
+        public string Login;
+        public string Senha;
     }
 }
