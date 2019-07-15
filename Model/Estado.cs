@@ -9,7 +9,7 @@ namespace Model
     public class Estado
     {
         public int Id;
-        public string Nome;
+        public string NomeEstado;
         public string Sigla;
     }
 }

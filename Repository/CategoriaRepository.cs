@@ -10,11 +10,11 @@ namespace Repository
 {
     public class CategoriaRepository
     {
-        public int Inserir(Categoria categoria)
-        {
-            SqlCommand comando = Conexao.Conectar();
-            comando.CommandText = "INSERT INTO "
-        }
+        //public int Inserir(Categoria categoria)
+        //{
+        //    SqlCommand comando = Conexao.Conectar();
+        //    comando.CommandText = "INSERT INTO ";
+        //}
         
         
     }

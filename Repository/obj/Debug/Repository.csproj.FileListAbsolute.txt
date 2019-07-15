@@ -1,2 +1,9 @@
 C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
 C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\bin\Debug\Repository.dll
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\bin\Debug\Repository.pdb
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\bin\Debug\Model.dll
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\bin\Debug\Model.pdb
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\obj\Debug\Repository.dll
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\obj\Debug\Repository.pdb

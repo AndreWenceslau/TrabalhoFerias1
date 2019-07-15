@@ -11,3 +11,30 @@
     </div>
 </div>
 
+<table class="table table-striped table-hover table-bordered">
+    <thead>
+        <tr>
+            <td>Nome do Estado</td>
+            <td>Sigla</td>
+            <td>Ação</td>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td>Nome do Estado</td>
+            <td>Sigla</td>
+            <td>Ação</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        @foreach(Model.Estado estado in ViewBag.Estados)
+        {
+        <tr>
+            <td>@estado.Id</td>
+            <td>@estado.NomeEstado</td>
+            <td>@estado.Sigla</td>
+        </tr>
+        }
+    </tbody>
+</table>
+

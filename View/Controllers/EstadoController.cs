@@ -30,11 +30,11 @@ namespace View.Controllers
             return View();
         }
 
-        public ActionResult Store(string nome, string sigla)
+        public ActionResult Store(string nomeEstado, string sigla)
         {
             Estado estado = new Estado();
-            estado.Nome = nome;
-            estado.Nome = sigla;
+            estado.NomeEstado = nomeEstado;
+            estado.NomeEstado = sigla;
             repository.Inserir(estado);
             return RedirectToAction("Index");
         }
