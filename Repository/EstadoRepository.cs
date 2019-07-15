@@ -1,6 +1,7 @@
 ﻿using Model;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -21,6 +22,25 @@ namespace Repository
             comando.Connection.Close();
             return id;
 
+        }
+        public List<Estado>ObterTodos()
+        {
+            SqlCommand comando = Conexao.Conectar();
+            comando.CommandText = "SELECT * FROM estados";
+            DataTable tabela = new DataTable();
+            tabela.Load(comando.ExecuteReader());
+
+            List<Estado> estados = new List<Estado>();
+            foreach(DataRow linha in tabela.Rows)
+            {
+                Estado estado = new Estado();
+                estado.Id = Convert.ToInt32(linha["id"]);
+                estado.Nome = linha["nome"].ToString();
+                estado.Sigla = linha["sigla"].ToString();
+                estados.Add(estado);
+            }
+            comando.Connection.Close();
+            return estados;
         }
     }
 }

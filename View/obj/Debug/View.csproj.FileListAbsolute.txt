@@ -73,3 +73,7 @@ C:\Users\Pichau\source\repos\TrabalhoFerias1\View\obj\Debug\View.csproj.CoreComp
 C:\Users\Pichau\source\repos\TrabalhoFerias1\View\obj\Debug\View.csproj.CopyComplete
 C:\Users\Pichau\source\repos\TrabalhoFerias1\View\obj\Debug\View.dll
 C:\Users\Pichau\source\repos\TrabalhoFerias1\View\obj\Debug\View.pdb
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\View\obj\Debug\View.csprojAssemblyReference.cache
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\View\obj\Debug\View.dll
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\View\obj\Debug\View.pdb

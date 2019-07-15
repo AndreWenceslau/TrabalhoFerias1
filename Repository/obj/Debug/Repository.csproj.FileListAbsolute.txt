@@ -1,0 +1,2 @@
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\Pichau\Documents\GitHub\TrabalhoFerias1\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
