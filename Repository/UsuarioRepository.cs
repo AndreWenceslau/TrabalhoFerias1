@@ -32,5 +32,16 @@ namespace Repository
             comando.Connection.Close();
             return usuarios;
         }
+        public int Inserir(Usuario usuario)
+        {
+            SqlCommand comando = Conexao.Conectar();
+            comando.CommandText = @"INSERT INTO usuarios (nome,login,senha) OUTPUT INSERTED.ID VALUES (@NOME,@LOGIN,@SENHA)";
+            comando.Parameters.AddWithValue("@NOME", usuario.Nome);
+            comando.Parameters.AddWithValue("@LOGIN", usuario.Login);
+            comando.Parameters.AddWithValue("@SENHA", usuario.Senha);
+            int id = Convert.ToInt32(comando.ExecuteScalar());
+            comando.Connection.Close();
+            return id;
+        }
     }
 }
