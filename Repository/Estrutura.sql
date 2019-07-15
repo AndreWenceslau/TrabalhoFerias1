@@ -1,6 +1,6 @@
 ﻿CREATE TABLE usuarios(
 id INT PRIMARY KEY IDENTITY(1,1),
 nome VARCHAR(100),
-loginn VARCHAR(100),
+login VARCHAR(100),
 senha VARCHAR(100)
 );
