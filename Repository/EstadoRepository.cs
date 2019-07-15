@@ -15,7 +15,7 @@ namespace Repository
         {
             SqlCommand comando = Conexao.Conectar();
             comando.CommandText = "INSERT INTO estados (nome, sigla) OUTPUT INSERTED VALUES (@NOME, @SIGLA)";
-            comando.Parameters.AddWithValue("@NOME", estado.Nome);
+            comando.Parameters.AddWithValue("@NOME", estado.NomeEstado);
             comando.Parameters.AddWithValue("@SIGLA", estado.Sigla);
 
             int id = Convert.ToInt32(comando.ExecuteScalar());
@@ -35,7 +35,7 @@ namespace Repository
             {
                 Estado estado = new Estado();
                 estado.Id = Convert.ToInt32(linha["id"]);
-                estado.Nome = linha["nome"].ToString();
+                estado.NomeEstado = linha["nome"].ToString();
                 estado.Sigla = linha["sigla"].ToString();
                 estados.Add(estado);
             }
