@@ -4,3 +4,9 @@ nome VARCHAR(100),
 login VARCHAR(100),
 senha VARCHAR(100)
 );
+
+CREATE TABLE estados(
+id INT PRIMARY KEY IDENTITY (1,1),
+nome VACHAR(100),
+sigla VARCHAR (2)
+);
